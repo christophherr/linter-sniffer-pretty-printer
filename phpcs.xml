@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Theme">
+	<description>PHPCS Ruleset for a WordPress Theme</description>
+	<config name="installed_paths" value="/vendor/wp-coding-standards/wpcs" />
+	<rule ref="WordPress">
+		<exclude name="WordPress.VIP"/>
+	</rule>
+</ruleset>

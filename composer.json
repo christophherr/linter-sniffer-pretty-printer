@@ -1,0 +1,16 @@
+{
+    "name": "christophherr/wp-tools",
+    "description": "WordPress Sniffer, Linter, Pretty Printer",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Christoph Herr",
+            "email": "info@christophherr.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0",
+        "wp-coding-standards/wpcs": "^0.14.0",
+        "phpmd/phpmd": "@stable"
+    }
+}
