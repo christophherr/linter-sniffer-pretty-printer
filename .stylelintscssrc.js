@@ -3,7 +3,7 @@
 module.exports = {
     extends: [
         "stylelint-config-wordpress/scss",
-        "prettier-stylelint\\index.js"
+        "prettier-stylelint/index.js"
     ],
     plugins: "stylelint-order",
     rules: {

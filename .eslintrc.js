@@ -1,3 +1,8 @@
 module.exports = {
-    extends: "wordpress"
+	env: {
+		jest: true,
+		node: true,
+		es6: true
+	},
+	extends: "wordpress"
 };
