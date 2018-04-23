@@ -1,13 +1,20 @@
 {
-  "name": "wp-tools",
+  "name": "linter-sniffer-pretty-printer",
   "version": "1.0.0",
   "description": "Sniffer, Linter, Pretty Printer for WordPress Projects",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophherr/linter-sniffer-pretty-printer.git"
+  },
   "author": "Christoph Herr",
-  "license": "GPL-2.0",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/christophherr/linter-sniffer-pretty-printer/issues"
+  },
+  "homepage": "https://github.com/christophherr/linter-sniffer-pretty-printer#readme",
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-wordpress": "^2.0.0",

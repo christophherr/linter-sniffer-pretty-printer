@@ -1,18 +1,20 @@
 {
-    "name": "christophherr/wp-tools",
-    "description": "WordPress Sniffer, Linter, Pretty Printer",
-    "license": "GPL-2.0",
-    "authors": [
-        {
-            "name": "Christoph Herr",
-            "email": "info@christophherr.com"
-        }
-    ],
-    "require-dev": {
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
-        "squizlabs/php_codesniffer": "^3.0",
-        "wp-coding-standards/wpcs": "^0.14.0",
-        "roave/security-advisories": "dev-master",
-        "phpmd/phpmd": "@stable"
-    }
+  "name": "christophherr/linter-sniffer-pretty-printer",
+  "description": "WordPress Sniffer, Linter, Pretty Printer",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "authors": [{
+      "name": "Christoph Herr",
+      "email": "info@christophherr.com",
+      "homepage": "https://www.christophherr.com"
+  }],
+  "support": {
+    "issues": "https://github.com/christophherr/linter-sniffer-pretty-printer/issues"
+  },
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+    "squizlabs/php_codesniffer": "^3.2.3",
+    "wp-coding-standards/wpcs": "^0.14.1",
+    "roave/security-advisories": "dev-master"
+  }
 }

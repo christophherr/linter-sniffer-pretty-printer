@@ -4,6 +4,13 @@ module.exports = {
 	extends: ["stylelint-config-wordpress", "prettier-stylelint/config.js"],
 	plugins: "stylelint-order",
 	rules: {
+		"max-line-length": 255,
+		"declaration-block-no-duplicate-properties": [
+			true,
+			{
+				ignore: ["consecutive-duplicates-with-different-values"]
+			}
+		],
 		"order/order": [
 			"at-variables",
 			"dollar-variables",
